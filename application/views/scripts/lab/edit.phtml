@@ -1,0 +1,134 @@
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+			<button type="button" class="btn btn-navbar" data-toggle="collapse"
+				data-target=".nav-collapse">
+				<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+					class="icon-bar"></span>
+			</button>
+			<a class="brand" id="usuario" href="#">Usu&aacute;rio logado: <?php echo $this->usuario->nome_completo; ?></a>
+			<div class="nav-collapse collapse">
+				<ul class="nav">
+					<li><a
+						href="<?php echo $this->url(array('controller' => 'lab', 'action' => 'index'), null, true); ?>">Cadastrar
+							laboratório</a></li>
+					<li><a
+						href="<?php echo $this->url(array('controller' => 'lab', 'action' => 'select'), null, true); ?>">Pesquisar
+							laboratório</a></li>
+					<li><a
+						href="<?php echo $this->url(array('controller' => 'auth', 'action' => 'logout'), null, true); ?>">Efetuar
+							logout</a></li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
+</div>
+<?php if (sizeof($this->mensagens) > 0) echo '<div class="alert alert-danger " role="alert">' . $this->mensagens . '</div>'; ?>
+
+
+<div class="tabela ">
+	<table class="table-bordered " id="idtabela">
+
+		<thead id="tHead">
+
+			<tr>
+				<td>Id</td>
+				<td>Local</td>
+				<td>Data</td>
+				<td>Turno da visita</td>
+				<td>Nome do laboratório</td>
+				<td>Somente aula?</td>
+				<td>Frequncia aula/semana</td>
+				<td>Turno aula</td>
+				<td>Quantidade gabinete</td>
+				<td>Quantidade tipo gabinete</td>
+				<td>Sistema operacional</td>
+				<td>Licença DTI?</td>
+				<td>OCS instalado?</td>
+				<td>IP servidor</td>
+				<td>Estrutura lógica da rede</td>
+				<td>Roteador</td>
+				<td>IP entrada</td>
+				<td>IP saída</td>
+				<td>Nome do responsável</td>
+				<td>Ramal</td>
+				<td>E-mail</td>
+				<td>Acesso remoto?</td>
+				<td>Backup?</td>
+				<td>Firewall?</td>
+				<td>Observações</td>
+
+			</tr>
+		</thead>
+
+		<tbody>
+            <?php foreach ($this->valor as $valor): ?>
+            <form method="post"
+				action="<?php echo $this->url(array('controller' => 'lab', 'action' => 'update'), null, true); ?>">
+				<tr>
+					<td><?php echo $valor->idLab; ?></td>
+					<td><input class="input-block-level" name="local" type="text"
+						value="<?php echo $valor->local; ?>" required /></td>
+					<td><input class="input-block-level" name="data" type="text"
+						value="<?php echo $valor->data; ?>" required /></td>
+					<td><input class="input-block-level" name="turnoVisita" type="text"
+						value="<?php echo $valor->turnoVisita; ?>" required /></td>
+					<td><input class="input-block-level" name="nomeLaboratorio"
+						type="text" value="<?php echo $valor->nomeLaboratorio; ?>"
+						required /></td>
+					<td><input class="input-block-level" name="somenteAula" type="text"
+						value="<?php echo $valor->somenteAula; ?>" required /></td>
+					<td><input class="input-block-level" name="frequenciaAula"
+						type="text" value="<?php echo $valor->frequenciaAula; ?>" required /></td>
+					<td><input class="input-block-level" name="turnoAula" type="text"
+						value="<?php echo $valor->turnoAula; ?>" required /></td>
+					<td><input class="input-block-level" name="quantGabinete"
+						type="text" value="<?php echo $valor->quantGabinete; ?>" required /></td>
+					<td><input class="input-block-level" name="quantTipoGabinete"
+						type="text" value="<?php echo $valor->quantTipoGabinete; ?>"
+						required /></td>
+					<td><input class="input-block-level" name="sisOperacional"
+						type="text" value="<?php echo $valor->sisOperacional; ?>" required /></td>
+					<td><input class="input-block-level" name="licencaDti" type="text"
+						value="<?php echo $valor->licencaDti; ?> " required /></td>
+					<td><input class="input-block-level" name="ocsInstalado"
+						type="text" value="<?php echo $valor->ocsInstalado; ?>" required /></td>
+					<td><input class="input-block-level" name="ipsServidores"
+						type="text" value="<?php echo $valor->ipsServidores; ?>" required /></td>
+					<td><input class="input-block-level" name="estruturaLRede"
+						type="text" value="<?php echo $valor->estruturaLRede; ?>" required /></td>
+					<td><input class="input-block-level" name="roteador" type="text"
+						value="<?php echo $valor->roteador; ?> " required /></td>
+					<td><input class="input-block-level" name="ipEntrada" type="text"
+						value="<?php echo $valor->ipEntrada; ?>" required /></td>
+					<td><input class="input-block-level" name="ipSaida" type="text"
+						value="<?php echo $valor->ipSaida; ?>" required /></td>
+					<td><input class="input-block-level" name="nomeResponsavel"
+						type="text" value="<?php echo $valor->nomeResponsavel; ?>"
+						required /></td>
+					<td><input class="input-block-level" name="ramal" type="text"
+						value="<?php echo $valor->ramal; ?>" required /></td>
+					<td><input class="input-block-level" name="email" type="text"
+						value="<?php echo $valor->email; ?>" required /></td>
+					<td><input class="input-block-level" name="acessoRemoto"
+						type="text" value="<?php echo $valor->acessoRemoto; ?> " required /></td>
+					<td><input class="input-block-level" name="backup" type="text"
+						value="<?php echo $valor->backup; ?>" required /></td>
+					<td><input class="input-block-level" name="firewall" type="text"
+						value="<?php echo $valor->firewall; ?>" required /></td>
+
+					<td><input class="input-block-level" name="observacoes" type="text"
+						value="<?php echo $valor->observacoes; ?>" required /></td>
+					<td><input name="idLab" type="hidden"
+						value="<?php echo $valor->idLab; ?>" /> <input
+						class="btn btn-small btn-inverse" type="submit" value="Salvar" />
+
+			</form>
+			</td>
+			</tr>
+		</tbody>
+        <?php endforeach; ?>
+
+    </table>
+</div>

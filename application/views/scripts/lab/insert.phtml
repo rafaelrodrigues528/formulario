@@ -1,0 +1,37 @@
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="brand" id="usuario" href="#">Usu&aacute;rio logado: <?php echo $this->usuario->nome_completo; ?></a>
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    <li class="active"><a href="<?php echo $this->url(array('controller' => 'lab', 'action' => 'insert'), null, true); ?>">Cadastrar laboratório</a></li>
+                    <li><a href="<?php echo $this->url(array('controller' => 'lab', 'action' => 'select'), null, true); ?>">Pesquisar laboratório</a></li>
+                    <li><a href="<?php echo $this->url(array('controller' => 'auth', 'action' => 'logout'), null, true); ?>">Efetuar logout</a></li>
+
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </div>
+</div>
+
+<?php if (sizeof($this->mensagens) > 0) echo '<div class="alert alert-danger " role="alert">' . $this->mensagens . '</div>'; ?>
+
+<div class="container">
+    <div class="starter-template">
+        <div class="formulario ">
+            <?php echo ( sizeof($this->messagesFormulario) > 0 ) ? $this->messagesFormulario[0] : ""; ?>
+
+            <?php echo $this->formulario; ?>
+
+            <?php echo $this->classe; ?>
+
+
+        </div>
+    </div>
+</div>
+

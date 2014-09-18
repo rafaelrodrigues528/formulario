@@ -1,0 +1,203 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27/08/2014, 08:09:12
+    Author     : rafael
+*/
+
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+
+tHead td{
+    min-width: 150px!important;
+    word-wrap: break-word;
+}
+
+
+
+.formDelAlter{
+    margin: 0!important;
+}
+
+.formDelAlter input{
+    width: 70px;
+}
+
+.form-signin , .formulario{
+    max-width: 300px;
+    padding: 19px 29px 29px;
+    margin: 0 auto 20px;
+    background-color: #C0C0C0;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.form-signin input[type="text"],
+.form-signin input[type="password"] {
+    font-size: 16px;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 7px 9px;
+
+}
+
+#usuario{
+
+    color:#ffffff;
+
+}
+
+.formulario{
+
+
+    margin-top: 30px;
+}
+
+.alert{
+
+    margin-top: 50px!important;
+}
+
+#observacoes{
+
+    max-height: 100px;
+
+}
+
+
+.input-block-level{
+
+    max-width: 300px;
+    margin-bottom: 30px;
+
+}
+
+.campo{
+
+    border-bottom: #000 1px solid;
+}
+
+.tabela{
+    overflow: auto;   
+    margin-top: 30px;   
+}
+
+
+
+
+
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+    /* Force table to not be like tables anymore */
+    table, thead, tbody, th, td, tr { 
+        display: block; 
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr { 
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr { border: 5px solid #ccc;
+    }
+
+    td { 
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee; 
+        position: relative;
+        padding-left: 70%; 
+
+    }
+
+    td:before { 
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%; 
+        padding-right: 10px; 
+        white-space: nowrap;
+
+    }
+
+    /*
+    Label the data
+    */
+    td:nth-of-type(1):before { content: "Id"; }
+    td:nth-of-type(2):before { content: "Local"; }
+    td:nth-of-type(3):before { content: "Data"; }
+    td:nth-of-type(4):before { content: "Turno da visita"; }
+    td:nth-of-type(5):before { content: "Nome do laboratório"; }
+    td:nth-of-type(6):before { content: "Somente aula?"; }
+    td:nth-of-type(7):before { content: "Frequncia aula/semana"; }
+    td:nth-of-type(8):before { content: "Turno aula"; }
+    td:nth-of-type(9):before { content: "Quantidade gabinete"; }
+    td:nth-of-type(10):before { content: "Quantidade tipo gabinete"; }
+    td:nth-of-type(11):before { content: "Sistema operacional"; }
+    td:nth-of-type(12):before { content: "Licença DTI?"; }
+    td:nth-of-type(13):before { content: "OCS instalado?"; }
+    td:nth-of-type(14):before { content: "IP servidor"; }
+    td:nth-of-type(15):before { content: "Estrutura lógica da rede"; }
+    td:nth-of-type(16):before { content: "Roteador"; }
+    td:nth-of-type(17):before { content: "IP entrada"; }
+    td:nth-of-type(18):before { content: "IP saída"; }
+    td:nth-of-type(19):before { content: "Nome do responsável"; }
+    td:nth-of-type(20):before { content: "Ramal"; }
+    td:nth-of-type(21):before { content: "E-mail"; }
+    td:nth-of-type(22):before { content: "Acesso remoto?"; }
+    td:nth-of-type(23):before { content: "Backup?"; }
+    td:nth-of-type(24):before { content: "Firewall?"; }
+    td:nth-of-type(25):before { content: "Observações"; }
+
+
+}
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    body { 
+        width: 495px; 
+    }
+}
+
+
+/* 
+Generic Styling, for Desktops/Laptops 
+*/
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+}
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+    background: #eee; 
+}
+
+td{ 
+
+    word-wrap: break-word;
+    border: 1px solid #ccc; 
+    text-align: left; 
+}

@@ -1,0 +1,137 @@
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+			<button type="button" class="btn btn-navbar" data-toggle="collapse"
+				data-target=".nav-collapse">
+				<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+					class="icon-bar"></span>
+			</button>
+			<a class="brand" id="usuario" href="#">Usu&aacute;rio logado: <?php echo $this->usuario->nome_completo; ?>
+			</a>
+			<div class="nav-collapse collapse">
+				<ul class="nav">
+					<li><a
+						href="<?php echo $this->url(array('controller' => 'lab',
+						                                      'action' => 'insert'), null, true);
+						?>">Cadastrar laboratório</a></li>
+
+					<li><a
+						href="<?php echo $this->url(array('controller' => 'lab',
+						                                      'action' => 'select'), null, true);
+						?>">Pesquisar laboratório</a></li>
+					<li><a
+						href="<?php echo $this->url(array('controller' => 'lab',
+						                                      'action' => 'createpdf',
+						                                       'idpdf' => '1lab.pdf'), null, true);
+						?>">Gerar PDF</a></li>
+
+					<li><a
+						href="<?php echo $this->url(array('controller' => 'auth',
+						                                      'action' => 'logout'), null, true);
+						?>">Efetuar logout</a></li>
+
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
+</div>
+
+<?php if (sizeof($this->mensagens) > 0)
+    echo '<div class="alert alert-danger " role="alert">' . $this->mensagens . '</div>'; ?>
+
+<form id="pesquisaLab" class="form-inline " action="" method="post">
+	<input type="text" name="infoLab" placeholder="Nome Lab ou Id"
+		autofocus> <input type="submit" value="Pesquisar" />
+</form>
+<?php echo $this->lab; ?>
+<div id="teste"></div>
+<div class="tabela ">
+	<table class="table-bordered " id="idtabela">
+
+		<thead>
+
+			<tr>
+				<td>Id</td>
+				<td>Local</td>
+				<td>Data</td>
+				<td>Turno da visita</td>
+				<td>Nome do laboratório</td>
+				<td>Somente aula?</td>
+				<td>Frequncia aula/semana</td>
+				<td>Turno aula</td>
+				<td>Quantidade gabinete</td>
+				<td>Quantidade tipo gabinete</td>
+				<td>Sistema operacional</td>
+				<td>Licença DTI?</td>
+				<td>OCS instalado?</td>
+				<td>IP servidor</td>
+				<td>Estrutura lógica da rede</td>
+				<td>Roteador</td>
+				<td>IP entrada</td>
+				<td>IP saída</td>
+				<td>Nome do responsável</td>
+				<td>Ramal</td>
+				<td>E-mail</td>
+				<td>Acesso remoto?</td>
+				<td>Backup?</td>
+				<td>Firewall?</td>
+				<td>Observações</td>
+
+			</tr>
+		</thead>
+
+		<tbody>
+            <?php foreach ($this->valor as $valor): ?>
+
+                <tr>
+				<td><?php echo $valor->idLab; ?></td>
+				<td><?php echo $valor->local; ?></td>
+				<td><?php echo $valor->data; ?></td>
+				<td><?php echo $valor->turnoVisita; ?> </td>
+				<td><?php echo $valor->nomeLaboratorio; ?></td>
+				<td><?php echo $valor->somenteAula; ?> </td>
+				<td><?php echo $valor->frequenciaAula; ?></td>
+				<td><?php echo $valor->turnoAula; ?> </td>
+				<td><?php echo $valor->quantGabinete; ?></td>
+				<td><?php echo $valor->quantTipoGabinete; ?> </td>
+				<td><?php echo $valor->sisOperacional; ?></td>
+				<td><?php echo $valor->licencaDti; ?> </td>
+				<td><?php echo $valor->ocsInstalado; ?></td>
+				<td><?php echo $valor->ipsServidores; ?> </td>
+				<td><?php echo $valor->estruturaLRede; ?></td>
+				<td><?php echo $valor->roteador; ?> </td>
+				<td><?php echo $valor->ipEntrada; ?></td>
+				<td><?php echo $valor->ipSaida; ?> </td>
+				<td><?php echo $valor->nomeResponsavel; ?></td>
+				<td><?php echo $valor->ramal; ?> </td>
+				<td><?php echo $valor->email; ?></td>
+				<td><?php echo $valor->acessoRemoto; ?> </td>
+				<td><?php echo $valor->backup; ?></td>
+				<td><?php echo $valor->firewall; ?> </td>
+				<td><?php echo $valor->observacoes; ?></td>
+				<td>
+					<form class="formDelAlter" method="post"
+						action="<?php echo $this->url(array('controller' => 'lab',
+						                                        'action' => 'edit'), null, true); ?>">
+						<input type="hidden" name="idLab"
+							value="<?php echo $valor->idLab; ?>" /> <input
+							class="btn btn-mini btn-inverse " id="alterar" type="submit"
+							value="Alterar" />
+					</form>
+
+					<form class="formDelAlter" method="post"
+						action="<?php echo $this->url(array('controller' => 'lab',
+						                                        'action' => 'delete'), null, true); ?>">
+						<input type="hidden" name="idLab"
+							value="<?php echo $valor->idLab; ?>" /> <input
+							class="deletar btn btn-mini " type="submit" value="Deletar" />
+
+					</form>
+				</td>
+
+			</tr>
+		</tbody>
+        <?php endforeach; ?>
+    </table>
+</div>
