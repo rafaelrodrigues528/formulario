@@ -1,441 +1,2382 @@
 %PDF-1.4
 %âãÏÓ
 1 0 obj 
-<</Type /Catalog /Version /1.4 /Pages 2 0 R /Names 7 0 R >>
+<</Type /Catalog /Version /1.4 /Pages 2 0 R /Names 11 0 R >>
 endobj
 2 0 obj 
-<</Type /Pages /Kids [3 0 R ] /Count 1 >>
+<</Type /Pages /Kids [3 0 R 4 0 R 5 0 R ] /Count 3 >>
 endobj
 3 0 obj 
-<</Type /Page /LastModified (D:20140918154336+02'00') /Resources <</ProcSet [/PDF /Text ] /Font <</F1 8 0 R >> >> /MediaBox [0 0 595 842 ] 
-/Contents [4 0 R ] /Parent 2 0 R >>
+<</Type /Page /LastModified (D:20140919135939+02'00') /Resources <</ProcSet [/Text ] /Font <</F1 12 0 R >> >> /MediaBox [0 0 842 595 ] 
+/Contents [6 0 R ] /Parent 2 0 R >>
 endobj
 4 0 obj 
-<</Length 2985 >>
+<</Type /Page /LastModified (D:20140919135939+02'00') /Resources <</ProcSet [/Text ] /Font <</F1 12 0 R >> >> /MediaBox [0 0 842 595 ] 
+/Contents [7 0 R ] /Parent 2 0 R >>
+endobj
+5 0 obj 
+<</Type /Page /LastModified (D:20140919135939+02'00') /Resources <</ProcSet [/Text ] /Font <</F1 12 0 R >> >> /MediaBox [0 0 842 595 ] 
+/Contents [8 0 R ] /Parent 2 0 R >>
+endobj
+6 0 obj 
+<</Length 4941 >>
 stream
-1 0 0 1 430 390 cm
-0 1 -1 0 0 0 cm
-1 0 0 1 -430 -390 cm
 /F1 12 Tf
 BT
-45 800 Td
+20 570 Td
 (Local) Tj
 ET
 BT
-100 800 Td
+75 570 Td
 (Nome laboratório) Tj
 ET
 BT
-230 800 Td
+205 570 Td
 (Data) Tj
 ET
 BT
-290 800 Td
+265 570 Td
 (Turno visita) Tj
 ET
 BT
-390 800 Td
+365 570 Td
 (Somente aula?) Tj
 ET
 BT
-500 800 Td
+475 570 Td
 (Frequencia aula) Tj
 ET
 BT
-620 800 Td
+595 570 Td
 (Turno Aula) Tj
 ET
 BT
-720 800 Td
+695 570 Td
 (Quantidade gabinete) Tj
 ET
 /F1 9 Tf
 BT
-45 780 Td
-(UFV) Tj
+20 550 Td
+(550) Tj
 ET
 BT
-100 780 Td
-(Lab Física) Tj
+75 550 Td
+(.) Tj
 ET
 BT
-230 780 Td
-(11/09/14) Tj
+205 550 Td
+(.) Tj
 ET
 BT
-290 780 Td
+265 550 Td
 (Manhã) Tj
 ET
 BT
-390 780 Td
+365 550 Td
 (Sim) Tj
 ET
 BT
-500 780 Td
-(4) Tj
-ET
-BT
-620 780 Td
-(Tarde) Tj
-ET
-BT
-720 780 Td
-(20) Tj
-ET
-BT
-45 768 Td
-(UFV) Tj
-ET
-BT
-100 768 Td
-(Lab Biologia) Tj
-ET
-BT
-230 768 Td
-(01/09/14) Tj
-ET
-BT
-290 768 Td
-(Tarde) Tj
-ET
-BT
-390 768 Td
-(Sim) Tj
-ET
-BT
-500 768 Td
-(4) Tj
-ET
-BT
-620 768 Td
-(Manhã) Tj
-ET
-BT
-720 768 Td
-(20) Tj
-ET
-BT
-45 756 Td
-(UFV) Tj
-ET
-BT
-100 756 Td
-(Lab Geografia) Tj
-ET
-BT
-230 756 Td
-(11/09/14) Tj
-ET
-BT
-290 756 Td
-(Tarde) Tj
-ET
-BT
-390 756 Td
-(Sim) Tj
-ET
-BT
-500 756 Td
-(3) Tj
-ET
-BT
-620 756 Td
-(Manhã) Tj
-ET
-BT
-720 756 Td
-(20) Tj
-ET
-/F1 12 Tf
-BT
-45 740 Td
-(Quantidade tipo gabinete) Tj
-ET
-BT
-230 740 Td
-(Sistema operacional) Tj
-ET
-BT
-390 740 Td
-(Licença DTI?) Tj
-ET
-BT
-500 740 Td
-(OCS instalado?) Tj
-ET
-BT
-620 740 Td
-(Ips servidores) Tj
-ET
-BT
-740 740 Td
-(Estrutura L.rede) Tj
-ET
-/F1 9 Tf
-BT
-45 728 Td
+475 550 Td
 (0) Tj
 ET
 BT
-230 728 Td
-(Windows) Tj
+595 550 Td
+(Manhã) Tj
 ET
 BT
-390 728 Td
-(Sim ) Tj
-ET
-BT
-500 728 Td
-(Sim) Tj
-ET
-BT
-620 728 Td
-(200.235.100.25) Tj
-ET
-BT
-740 728 Td
-(.) Tj
-ET
-BT
-45 716 Td
-(2) Tj
-ET
-BT
-230 716 Td
-(Linux) Tj
-ET
-BT
-390 716 Td
-(Não) Tj
-ET
-BT
-500 716 Td
-(Não) Tj
-ET
-BT
-620 716 Td
-(200.238.555.127) Tj
-ET
-BT
-740 716 Td
-(.) Tj
-ET
-BT
-45 704 Td
+695 550 Td
 (0) Tj
 ET
 BT
-230 704 Td
-(Windows) Tj
+20 538 Td
+(538) Tj
 ET
 BT
-390 704 Td
-(Sim ) Tj
+75 538 Td
+(.) Tj
 ET
 BT
-500 704 Td
+205 538 Td
+(.) Tj
+ET
+BT
+265 538 Td
+(Manhã) Tj
+ET
+BT
+365 538 Td
 (Sim) Tj
 ET
 BT
-620 704 Td
-(200.238.555.127) Tj
+475 538 Td
+(0) Tj
 ET
 BT
-740 704 Td
-(.) Tj
-ET
-/F1 12 Tf
-BT
-45 688 Td
-(Roteador) Tj
+595 538 Td
+(Manhã) Tj
 ET
 BT
-230 688 Td
-(Ip entrada) Tj
+695 538 Td
+(0) Tj
 ET
 BT
-390 688 Td
-(Ip saída) Tj
+20 526 Td
+(526) Tj
 ET
 BT
-500 688 Td
-(Nome responsável) Tj
-ET
-BT
-620 688 Td
-(Ramal) Tj
-ET
-BT
-740 688 Td
-(E-mail) Tj
-ET
-/F1 9 Tf
-BT
-45 676 Td
-(. ) Tj
-ET
-BT
-230 676 Td
+75 526 Td
 (.) Tj
 ET
 BT
-390 676 Td
+205 526 Td
 (.) Tj
 ET
 BT
-500 676 Td
-(.) Tj
+265 526 Td
+(Manhã) Tj
 ET
 BT
-620 676 Td
-(.) Tj
-ET
-BT
-740 676 Td
-(.) Tj
-ET
-BT
-45 664 Td
-(.) Tj
-ET
-BT
-230 664 Td
-(200.238.555.127) Tj
-ET
-BT
-390 664 Td
-(200.238.555.127) Tj
-ET
-BT
-500 664 Td
-(Carlos) Tj
-ET
-BT
-620 664 Td
-(3055) Tj
-ET
-BT
-740 664 Td
-(carlos@ufv.br) Tj
-ET
-BT
-45 652 Td
-(. ) Tj
-ET
-BT
-230 652 Td
-(200.238.555.127) Tj
-ET
-BT
-390 652 Td
-(200.238.555.127) Tj
-ET
-BT
-500 652 Td
-(Luiz Carlos) Tj
-ET
-BT
-620 652 Td
-(2658) Tj
-ET
-BT
-740 652 Td
-(luizc@ufv.br) Tj
-ET
-/F1 12 Tf
-BT
-45 636 Td
-(Acesso remoto) Tj
-ET
-BT
-230 636 Td
-(Backup) Tj
-ET
-BT
-390 636 Td
-(Firewall) Tj
-ET
-BT
-500 636 Td
-(Observações) Tj
-ET
-/F1 9 Tf
-BT
-45 624 Td
-(.   ) Tj
-ET
-BT
-230 624 Td
-(.) Tj
-ET
-BT
-390 624 Td
-(.) Tj
-ET
-BT
-500 624 Td
-(.) Tj
-ET
-BT
-45 612 Td
+365 526 Td
 (Sim) Tj
 ET
 BT
-230 612 Td
+475 526 Td
+(0) Tj
+ET
+BT
+595 526 Td
+(Manhã) Tj
+ET
+BT
+695 526 Td
+(0) Tj
+ET
+BT
+20 514 Td
+(514) Tj
+ET
+BT
+75 514 Td
+(.) Tj
+ET
+BT
+205 514 Td
+(.) Tj
+ET
+BT
+265 514 Td
+(Manhã) Tj
+ET
+BT
+365 514 Td
 (Sim) Tj
 ET
 BT
-390 612 Td
+475 514 Td
+(0) Tj
+ET
+BT
+595 514 Td
+(Manhã) Tj
+ET
+BT
+695 514 Td
+(0) Tj
+ET
+BT
+20 502 Td
+(502) Tj
+ET
+BT
+75 502 Td
+(.) Tj
+ET
+BT
+205 502 Td
+(.) Tj
+ET
+BT
+265 502 Td
+(Manhã) Tj
+ET
+BT
+365 502 Td
 (Sim) Tj
 ET
 BT
-500 612 Td
-(Nenhuma) Tj
+475 502 Td
+(0) Tj
 ET
 BT
-45 600 Td
-(Sim ) Tj
+595 502 Td
+(Manhã) Tj
 ET
 BT
-230 600 Td
-(Não) Tj
+695 502 Td
+(0) Tj
 ET
 BT
-390 600 Td
-(Não) Tj
+20 490 Td
+(490) Tj
 ET
 BT
-500 600 Td
-(Algumas observações) Tj
+75 490 Td
+(.) Tj
+ET
+BT
+205 490 Td
+(.) Tj
+ET
+BT
+265 490 Td
+(Manhã) Tj
+ET
+BT
+365 490 Td
+(Sim) Tj
+ET
+BT
+475 490 Td
+(0) Tj
+ET
+BT
+595 490 Td
+(Manhã) Tj
+ET
+BT
+695 490 Td
+(0) Tj
+ET
+BT
+20 478 Td
+(478) Tj
+ET
+BT
+75 478 Td
+(.) Tj
+ET
+BT
+205 478 Td
+(.) Tj
+ET
+BT
+265 478 Td
+(Manhã) Tj
+ET
+BT
+365 478 Td
+(Sim) Tj
+ET
+BT
+475 478 Td
+(0) Tj
+ET
+BT
+595 478 Td
+(Manhã) Tj
+ET
+BT
+695 478 Td
+(0) Tj
+ET
+BT
+20 466 Td
+(466) Tj
+ET
+BT
+75 466 Td
+(.) Tj
+ET
+BT
+205 466 Td
+(.) Tj
+ET
+BT
+265 466 Td
+(Manhã) Tj
+ET
+BT
+365 466 Td
+(Sim) Tj
+ET
+BT
+475 466 Td
+(0) Tj
+ET
+BT
+595 466 Td
+(Manhã) Tj
+ET
+BT
+695 466 Td
+(0) Tj
+ET
+BT
+20 454 Td
+(454) Tj
+ET
+BT
+75 454 Td
+(.) Tj
+ET
+BT
+205 454 Td
+(.) Tj
+ET
+BT
+265 454 Td
+(Manhã) Tj
+ET
+BT
+365 454 Td
+(Sim) Tj
+ET
+BT
+475 454 Td
+(0) Tj
+ET
+BT
+595 454 Td
+(Manhã) Tj
+ET
+BT
+695 454 Td
+(0) Tj
+ET
+BT
+20 442 Td
+(442) Tj
+ET
+BT
+75 442 Td
+(.) Tj
+ET
+BT
+205 442 Td
+(.) Tj
+ET
+BT
+265 442 Td
+(Manhã) Tj
+ET
+BT
+365 442 Td
+(Sim) Tj
+ET
+BT
+475 442 Td
+(0) Tj
+ET
+BT
+595 442 Td
+(Manhã) Tj
+ET
+BT
+695 442 Td
+(0) Tj
+ET
+BT
+20 430 Td
+(430) Tj
+ET
+BT
+75 430 Td
+(.) Tj
+ET
+BT
+205 430 Td
+(.) Tj
+ET
+BT
+265 430 Td
+(Manhã) Tj
+ET
+BT
+365 430 Td
+(Sim) Tj
+ET
+BT
+475 430 Td
+(0) Tj
+ET
+BT
+595 430 Td
+(Manhã) Tj
+ET
+BT
+695 430 Td
+(0) Tj
+ET
+BT
+20 418 Td
+(418) Tj
+ET
+BT
+75 418 Td
+(.) Tj
+ET
+BT
+205 418 Td
+(.) Tj
+ET
+BT
+265 418 Td
+(Manhã) Tj
+ET
+BT
+365 418 Td
+(Sim) Tj
+ET
+BT
+475 418 Td
+(0) Tj
+ET
+BT
+595 418 Td
+(Manhã) Tj
+ET
+BT
+695 418 Td
+(0) Tj
+ET
+BT
+20 406 Td
+(406) Tj
+ET
+BT
+75 406 Td
+(.) Tj
+ET
+BT
+205 406 Td
+(.) Tj
+ET
+BT
+265 406 Td
+(Manhã) Tj
+ET
+BT
+365 406 Td
+(Sim) Tj
+ET
+BT
+475 406 Td
+(0) Tj
+ET
+BT
+595 406 Td
+(Manhã) Tj
+ET
+BT
+695 406 Td
+(0) Tj
+ET
+BT
+20 394 Td
+(394) Tj
+ET
+BT
+75 394 Td
+(.) Tj
+ET
+BT
+205 394 Td
+(.) Tj
+ET
+BT
+265 394 Td
+(Manhã) Tj
+ET
+BT
+365 394 Td
+(Sim) Tj
+ET
+BT
+475 394 Td
+(0) Tj
+ET
+BT
+595 394 Td
+(Manhã) Tj
+ET
+BT
+695 394 Td
+(0) Tj
+ET
+BT
+20 382 Td
+(382) Tj
+ET
+BT
+75 382 Td
+(.) Tj
+ET
+BT
+205 382 Td
+(.) Tj
+ET
+BT
+265 382 Td
+(Manhã) Tj
+ET
+BT
+365 382 Td
+(Sim) Tj
+ET
+BT
+475 382 Td
+(0) Tj
+ET
+BT
+595 382 Td
+(Manhã) Tj
+ET
+BT
+695 382 Td
+(0) Tj
+ET
+BT
+20 370 Td
+(370) Tj
+ET
+BT
+75 370 Td
+(.) Tj
+ET
+BT
+205 370 Td
+(.) Tj
+ET
+BT
+265 370 Td
+(Manhã) Tj
+ET
+BT
+365 370 Td
+(Sim) Tj
+ET
+BT
+475 370 Td
+(0) Tj
+ET
+BT
+595 370 Td
+(Manhã) Tj
+ET
+BT
+695 370 Td
+(0) Tj
+ET
+BT
+20 358 Td
+(358) Tj
+ET
+BT
+75 358 Td
+(.) Tj
+ET
+BT
+205 358 Td
+(.) Tj
+ET
+BT
+265 358 Td
+(Manhã) Tj
+ET
+BT
+365 358 Td
+(Sim) Tj
+ET
+BT
+475 358 Td
+(0) Tj
+ET
+BT
+595 358 Td
+(Manhã) Tj
+ET
+BT
+695 358 Td
+(0) Tj
+ET
+BT
+20 346 Td
+(346) Tj
+ET
+BT
+75 346 Td
+(.) Tj
+ET
+BT
+205 346 Td
+(.) Tj
+ET
+BT
+265 346 Td
+(Manhã) Tj
+ET
+BT
+365 346 Td
+(Sim) Tj
+ET
+BT
+475 346 Td
+(0) Tj
+ET
+BT
+595 346 Td
+(Manhã) Tj
+ET
+BT
+695 346 Td
+(0) Tj
+ET
+BT
+20 334 Td
+(334) Tj
+ET
+BT
+75 334 Td
+(.) Tj
+ET
+BT
+205 334 Td
+(.) Tj
+ET
+BT
+265 334 Td
+(Manhã) Tj
+ET
+BT
+365 334 Td
+(Sim) Tj
+ET
+BT
+475 334 Td
+(0) Tj
+ET
+BT
+595 334 Td
+(Manhã) Tj
+ET
+BT
+695 334 Td
+(0) Tj
+ET
+BT
+20 322 Td
+(322) Tj
+ET
+BT
+75 322 Td
+(.) Tj
+ET
+BT
+205 322 Td
+(.) Tj
+ET
+BT
+265 322 Td
+(Manhã) Tj
+ET
+BT
+365 322 Td
+(Sim) Tj
+ET
+BT
+475 322 Td
+(0) Tj
+ET
+BT
+595 322 Td
+(Manhã) Tj
+ET
+BT
+695 322 Td
+(0) Tj
+ET
+BT
+20 310 Td
+(310) Tj
+ET
+BT
+75 310 Td
+(.) Tj
+ET
+BT
+205 310 Td
+(.) Tj
+ET
+BT
+265 310 Td
+(Manhã) Tj
+ET
+BT
+365 310 Td
+(Sim) Tj
+ET
+BT
+475 310 Td
+(0) Tj
+ET
+BT
+595 310 Td
+(Manhã) Tj
+ET
+BT
+695 310 Td
+(0) Tj
+ET
+BT
+20 298 Td
+(298) Tj
+ET
+BT
+75 298 Td
+(.) Tj
+ET
+BT
+205 298 Td
+(.) Tj
+ET
+BT
+265 298 Td
+(Manhã) Tj
+ET
+BT
+365 298 Td
+(Sim) Tj
+ET
+BT
+475 298 Td
+(0) Tj
+ET
+BT
+595 298 Td
+(Manhã) Tj
+ET
+BT
+695 298 Td
+(0) Tj
+ET
+BT
+20 286 Td
+(286) Tj
+ET
+BT
+75 286 Td
+(.) Tj
+ET
+BT
+205 286 Td
+(.) Tj
+ET
+BT
+265 286 Td
+(Manhã) Tj
+ET
+BT
+365 286 Td
+(Sim) Tj
+ET
+BT
+475 286 Td
+(0) Tj
+ET
+BT
+595 286 Td
+(Manhã) Tj
+ET
+BT
+695 286 Td
+(0) Tj
 ET
 
 endstream
 endobj
-5 0 obj 
-[]
-endobj
-6 0 obj 
-<</Names 5 0 R >>
-endobj
 7 0 obj 
-<</Dests 6 0 R >>
+<</Length 7324 >>
+stream
+/F1 12 Tf
+BT
+20 576 Td
+(Quantidade tipo gabinete) Tj
+ET
+BT
+205 576 Td
+(Sistema operacional) Tj
+ET
+BT
+365 576 Td
+(Licença DTI?) Tj
+ET
+BT
+475 576 Td
+(OCS instalado?) Tj
+ET
+BT
+595 576 Td
+(Ips servidores) Tj
+ET
+BT
+710 576 Td
+(Estrutura L.rede) Tj
+ET
+/F1 9 Tf
+BT
+20 564 Td
+(564) Tj
+ET
+BT
+205 564 Td
+(Windows) Tj
+ET
+BT
+365 564 Td
+(Sim) Tj
+ET
+BT
+475 564 Td
+(Sim) Tj
+ET
+BT
+595 564 Td
+(.) Tj
+ET
+BT
+710 564 Td
+(.) Tj
+ET
+BT
+20 552 Td
+(552) Tj
+ET
+BT
+205 552 Td
+(Windows) Tj
+ET
+BT
+365 552 Td
+(Sim) Tj
+ET
+BT
+475 552 Td
+(Sim) Tj
+ET
+BT
+595 552 Td
+(.) Tj
+ET
+BT
+710 552 Td
+(.) Tj
+ET
+BT
+20 540 Td
+(540) Tj
+ET
+BT
+205 540 Td
+(Windows) Tj
+ET
+BT
+365 540 Td
+(Sim) Tj
+ET
+BT
+475 540 Td
+(Sim) Tj
+ET
+BT
+595 540 Td
+(.) Tj
+ET
+BT
+710 540 Td
+(.) Tj
+ET
+BT
+20 528 Td
+(528) Tj
+ET
+BT
+205 528 Td
+(Windows) Tj
+ET
+BT
+365 528 Td
+(Sim) Tj
+ET
+BT
+475 528 Td
+(Sim) Tj
+ET
+BT
+595 528 Td
+(.) Tj
+ET
+BT
+710 528 Td
+(.) Tj
+ET
+BT
+20 516 Td
+(516) Tj
+ET
+BT
+205 516 Td
+(Windows) Tj
+ET
+BT
+365 516 Td
+(Sim) Tj
+ET
+BT
+475 516 Td
+(Sim) Tj
+ET
+BT
+595 516 Td
+(.) Tj
+ET
+BT
+710 516 Td
+(.) Tj
+ET
+BT
+20 504 Td
+(504) Tj
+ET
+BT
+205 504 Td
+(Windows) Tj
+ET
+BT
+365 504 Td
+(Sim) Tj
+ET
+BT
+475 504 Td
+(Sim) Tj
+ET
+BT
+595 504 Td
+(.) Tj
+ET
+BT
+710 504 Td
+(.) Tj
+ET
+BT
+20 492 Td
+(492) Tj
+ET
+BT
+205 492 Td
+(Windows) Tj
+ET
+BT
+365 492 Td
+(Sim) Tj
+ET
+BT
+475 492 Td
+(Sim) Tj
+ET
+BT
+595 492 Td
+(.) Tj
+ET
+BT
+710 492 Td
+(.) Tj
+ET
+BT
+20 480 Td
+(480) Tj
+ET
+BT
+205 480 Td
+(Windows) Tj
+ET
+BT
+365 480 Td
+(Sim) Tj
+ET
+BT
+475 480 Td
+(Sim) Tj
+ET
+BT
+595 480 Td
+(.) Tj
+ET
+BT
+710 480 Td
+(.) Tj
+ET
+BT
+20 468 Td
+(468) Tj
+ET
+BT
+205 468 Td
+(Windows) Tj
+ET
+BT
+365 468 Td
+(Sim) Tj
+ET
+BT
+475 468 Td
+(Sim) Tj
+ET
+BT
+595 468 Td
+(.) Tj
+ET
+BT
+710 468 Td
+(.) Tj
+ET
+BT
+20 456 Td
+(456) Tj
+ET
+BT
+205 456 Td
+(Windows) Tj
+ET
+BT
+365 456 Td
+(Sim) Tj
+ET
+BT
+475 456 Td
+(Sim) Tj
+ET
+BT
+595 456 Td
+(.) Tj
+ET
+BT
+710 456 Td
+(.) Tj
+ET
+BT
+20 444 Td
+(444) Tj
+ET
+BT
+205 444 Td
+(Windows) Tj
+ET
+BT
+365 444 Td
+(Sim) Tj
+ET
+BT
+475 444 Td
+(Sim) Tj
+ET
+BT
+595 444 Td
+(.) Tj
+ET
+BT
+710 444 Td
+(.) Tj
+ET
+BT
+20 432 Td
+(432) Tj
+ET
+BT
+205 432 Td
+(Windows) Tj
+ET
+BT
+365 432 Td
+(Sim) Tj
+ET
+BT
+475 432 Td
+(Sim) Tj
+ET
+BT
+595 432 Td
+(.) Tj
+ET
+BT
+710 432 Td
+(.) Tj
+ET
+BT
+20 420 Td
+(420) Tj
+ET
+BT
+205 420 Td
+(Windows) Tj
+ET
+BT
+365 420 Td
+(Sim) Tj
+ET
+BT
+475 420 Td
+(Sim) Tj
+ET
+BT
+595 420 Td
+(.) Tj
+ET
+BT
+710 420 Td
+(.) Tj
+ET
+BT
+20 408 Td
+(408) Tj
+ET
+BT
+205 408 Td
+(Windows) Tj
+ET
+BT
+365 408 Td
+(Sim) Tj
+ET
+BT
+475 408 Td
+(Sim) Tj
+ET
+BT
+595 408 Td
+(.) Tj
+ET
+BT
+710 408 Td
+(.) Tj
+ET
+BT
+20 396 Td
+(396) Tj
+ET
+BT
+205 396 Td
+(Windows) Tj
+ET
+BT
+365 396 Td
+(Sim) Tj
+ET
+BT
+475 396 Td
+(Sim) Tj
+ET
+BT
+595 396 Td
+(.) Tj
+ET
+BT
+710 396 Td
+(.) Tj
+ET
+BT
+20 384 Td
+(384) Tj
+ET
+BT
+205 384 Td
+(Windows) Tj
+ET
+BT
+365 384 Td
+(Sim) Tj
+ET
+BT
+475 384 Td
+(Sim) Tj
+ET
+BT
+595 384 Td
+(.) Tj
+ET
+BT
+710 384 Td
+(.) Tj
+ET
+BT
+20 372 Td
+(372) Tj
+ET
+BT
+205 372 Td
+(Windows) Tj
+ET
+BT
+365 372 Td
+(Sim) Tj
+ET
+BT
+475 372 Td
+(Sim) Tj
+ET
+BT
+595 372 Td
+(.) Tj
+ET
+BT
+710 372 Td
+(.) Tj
+ET
+BT
+20 360 Td
+(360) Tj
+ET
+BT
+205 360 Td
+(Windows) Tj
+ET
+BT
+365 360 Td
+(Sim) Tj
+ET
+BT
+475 360 Td
+(Sim) Tj
+ET
+BT
+595 360 Td
+(.) Tj
+ET
+BT
+710 360 Td
+(.) Tj
+ET
+BT
+20 348 Td
+(348) Tj
+ET
+BT
+205 348 Td
+(Windows) Tj
+ET
+BT
+365 348 Td
+(Sim) Tj
+ET
+BT
+475 348 Td
+(Sim) Tj
+ET
+BT
+595 348 Td
+(.) Tj
+ET
+BT
+710 348 Td
+(.) Tj
+ET
+BT
+20 336 Td
+(336) Tj
+ET
+BT
+205 336 Td
+(Windows) Tj
+ET
+BT
+365 336 Td
+(Sim) Tj
+ET
+BT
+475 336 Td
+(Sim) Tj
+ET
+BT
+595 336 Td
+(.) Tj
+ET
+BT
+710 336 Td
+(.) Tj
+ET
+BT
+20 324 Td
+(324) Tj
+ET
+BT
+205 324 Td
+(Windows) Tj
+ET
+BT
+365 324 Td
+(Sim) Tj
+ET
+BT
+475 324 Td
+(Sim) Tj
+ET
+BT
+595 324 Td
+(.) Tj
+ET
+BT
+710 324 Td
+(.) Tj
+ET
+BT
+20 312 Td
+(312) Tj
+ET
+BT
+205 312 Td
+(Windows) Tj
+ET
+BT
+365 312 Td
+(Sim) Tj
+ET
+BT
+475 312 Td
+(Sim) Tj
+ET
+BT
+595 312 Td
+(.) Tj
+ET
+BT
+710 312 Td
+(.) Tj
+ET
+BT
+20 300 Td
+(300) Tj
+ET
+BT
+205 300 Td
+(Windows) Tj
+ET
+BT
+365 300 Td
+(Sim) Tj
+ET
+BT
+475 300 Td
+(Sim) Tj
+ET
+BT
+595 300 Td
+(.) Tj
+ET
+BT
+710 300 Td
+(.) Tj
+ET
+/F1 12 Tf
+BT
+20 284 Td
+(Roteador) Tj
+ET
+BT
+205 284 Td
+(Ip entrada) Tj
+ET
+BT
+365 284 Td
+(Ip saída) Tj
+ET
+BT
+475 284 Td
+(Nome responsável) Tj
+ET
+BT
+595 284 Td
+(Ramal) Tj
+ET
+BT
+715 284 Td
+(E-mail) Tj
+ET
+/F1 9 Tf
+BT
+20 272 Td
+(272) Tj
+ET
+BT
+205 272 Td
+(..) Tj
+ET
+BT
+365 272 Td
+(.) Tj
+ET
+BT
+475 272 Td
+(.) Tj
+ET
+BT
+595 272 Td
+(.) Tj
+ET
+BT
+715 272 Td
+(.) Tj
+ET
+BT
+20 260 Td
+(260) Tj
+ET
+BT
+205 260 Td
+(..) Tj
+ET
+BT
+365 260 Td
+(.) Tj
+ET
+BT
+475 260 Td
+(.) Tj
+ET
+BT
+595 260 Td
+(.) Tj
+ET
+BT
+715 260 Td
+(.) Tj
+ET
+BT
+20 248 Td
+(248) Tj
+ET
+BT
+205 248 Td
+(..) Tj
+ET
+BT
+365 248 Td
+(.) Tj
+ET
+BT
+475 248 Td
+(.) Tj
+ET
+BT
+595 248 Td
+(.) Tj
+ET
+BT
+715 248 Td
+(.) Tj
+ET
+BT
+20 236 Td
+(236) Tj
+ET
+BT
+205 236 Td
+(..) Tj
+ET
+BT
+365 236 Td
+(.) Tj
+ET
+BT
+475 236 Td
+(.) Tj
+ET
+BT
+595 236 Td
+(.) Tj
+ET
+BT
+715 236 Td
+(.) Tj
+ET
+BT
+20 224 Td
+(224) Tj
+ET
+BT
+205 224 Td
+(..) Tj
+ET
+BT
+365 224 Td
+(.) Tj
+ET
+BT
+475 224 Td
+(.) Tj
+ET
+BT
+595 224 Td
+(.) Tj
+ET
+BT
+715 224 Td
+(.) Tj
+ET
+BT
+20 212 Td
+(212) Tj
+ET
+BT
+205 212 Td
+(..) Tj
+ET
+BT
+365 212 Td
+(.) Tj
+ET
+BT
+475 212 Td
+(.) Tj
+ET
+BT
+595 212 Td
+(.) Tj
+ET
+BT
+715 212 Td
+(.) Tj
+ET
+BT
+20 200 Td
+(200) Tj
+ET
+BT
+205 200 Td
+(..) Tj
+ET
+BT
+365 200 Td
+(.) Tj
+ET
+BT
+475 200 Td
+(.) Tj
+ET
+BT
+595 200 Td
+(.) Tj
+ET
+BT
+715 200 Td
+(.) Tj
+ET
+BT
+20 188 Td
+(188) Tj
+ET
+BT
+205 188 Td
+(..) Tj
+ET
+BT
+365 188 Td
+(.) Tj
+ET
+BT
+475 188 Td
+(.) Tj
+ET
+BT
+595 188 Td
+(.) Tj
+ET
+BT
+715 188 Td
+(.) Tj
+ET
+BT
+20 176 Td
+(176) Tj
+ET
+BT
+205 176 Td
+(..) Tj
+ET
+BT
+365 176 Td
+(.) Tj
+ET
+BT
+475 176 Td
+(.) Tj
+ET
+BT
+595 176 Td
+(.) Tj
+ET
+BT
+715 176 Td
+(.) Tj
+ET
+BT
+20 164 Td
+(164) Tj
+ET
+BT
+205 164 Td
+(..) Tj
+ET
+BT
+365 164 Td
+(.) Tj
+ET
+BT
+475 164 Td
+(.) Tj
+ET
+BT
+595 164 Td
+(.) Tj
+ET
+BT
+715 164 Td
+(.) Tj
+ET
+BT
+20 152 Td
+(152) Tj
+ET
+BT
+205 152 Td
+(..) Tj
+ET
+BT
+365 152 Td
+(.) Tj
+ET
+BT
+475 152 Td
+(.) Tj
+ET
+BT
+595 152 Td
+(.) Tj
+ET
+BT
+715 152 Td
+(.) Tj
+ET
+BT
+20 140 Td
+(140) Tj
+ET
+BT
+205 140 Td
+(..) Tj
+ET
+BT
+365 140 Td
+(.) Tj
+ET
+BT
+475 140 Td
+(.) Tj
+ET
+BT
+595 140 Td
+(.) Tj
+ET
+BT
+715 140 Td
+(.) Tj
+ET
+BT
+20 128 Td
+(128) Tj
+ET
+BT
+205 128 Td
+(..) Tj
+ET
+BT
+365 128 Td
+(.) Tj
+ET
+BT
+475 128 Td
+(.) Tj
+ET
+BT
+595 128 Td
+(.) Tj
+ET
+BT
+715 128 Td
+(.) Tj
+ET
+BT
+20 116 Td
+(116) Tj
+ET
+BT
+205 116 Td
+(..) Tj
+ET
+BT
+365 116 Td
+(.) Tj
+ET
+BT
+475 116 Td
+(.) Tj
+ET
+BT
+595 116 Td
+(.) Tj
+ET
+BT
+715 116 Td
+(.) Tj
+ET
+BT
+20 104 Td
+(104) Tj
+ET
+BT
+205 104 Td
+(..) Tj
+ET
+BT
+365 104 Td
+(.) Tj
+ET
+BT
+475 104 Td
+(.) Tj
+ET
+BT
+595 104 Td
+(.) Tj
+ET
+BT
+715 104 Td
+(.) Tj
+ET
+BT
+20 92 Td
+(92) Tj
+ET
+BT
+205 92 Td
+(..) Tj
+ET
+BT
+365 92 Td
+(.) Tj
+ET
+BT
+475 92 Td
+(.) Tj
+ET
+BT
+595 92 Td
+(.) Tj
+ET
+BT
+715 92 Td
+(.) Tj
+ET
+BT
+20 80 Td
+(80) Tj
+ET
+BT
+205 80 Td
+(..) Tj
+ET
+BT
+365 80 Td
+(.) Tj
+ET
+BT
+475 80 Td
+(.) Tj
+ET
+BT
+595 80 Td
+(.) Tj
+ET
+BT
+715 80 Td
+(.) Tj
+ET
+BT
+20 68 Td
+(68) Tj
+ET
+BT
+205 68 Td
+(..) Tj
+ET
+BT
+365 68 Td
+(.) Tj
+ET
+BT
+475 68 Td
+(.) Tj
+ET
+BT
+595 68 Td
+(.) Tj
+ET
+BT
+715 68 Td
+(.) Tj
+ET
+BT
+20 56 Td
+(56) Tj
+ET
+BT
+205 56 Td
+(..) Tj
+ET
+BT
+365 56 Td
+(.) Tj
+ET
+BT
+475 56 Td
+(.) Tj
+ET
+BT
+595 56 Td
+(.) Tj
+ET
+BT
+715 56 Td
+(.) Tj
+ET
+BT
+20 44 Td
+(44) Tj
+ET
+BT
+205 44 Td
+(..) Tj
+ET
+BT
+365 44 Td
+(.) Tj
+ET
+BT
+475 44 Td
+(.) Tj
+ET
+BT
+595 44 Td
+(.) Tj
+ET
+BT
+715 44 Td
+(.) Tj
+ET
+BT
+20 32 Td
+(32) Tj
+ET
+BT
+205 32 Td
+(..) Tj
+ET
+BT
+365 32 Td
+(.) Tj
+ET
+BT
+475 32 Td
+(.) Tj
+ET
+BT
+595 32 Td
+(.) Tj
+ET
+BT
+715 32 Td
+(.) Tj
+ET
+BT
+20 20 Td
+(20) Tj
+ET
+BT
+205 20 Td
+(..) Tj
+ET
+BT
+365 20 Td
+(.) Tj
+ET
+BT
+475 20 Td
+(.) Tj
+ET
+BT
+595 20 Td
+(.) Tj
+ET
+BT
+715 20 Td
+(.) Tj
+ET
+BT
+20 8 Td
+(8) Tj
+ET
+BT
+205 8 Td
+(..) Tj
+ET
+BT
+365 8 Td
+(.) Tj
+ET
+BT
+475 8 Td
+(.) Tj
+ET
+BT
+595 8 Td
+(.) Tj
+ET
+BT
+715 8 Td
+(.) Tj
+ET
+
+endstream
 endobj
 8 0 obj 
+<</Length 2471 >>
+stream
+/F1 12 Tf
+BT
+20 576 Td
+(Acesso remoto) Tj
+ET
+BT
+205 576 Td
+(Backup) Tj
+ET
+BT
+375 576 Td
+(Firewall) Tj
+ET
+BT
+475 576 Td
+(Observações) Tj
+ET
+/F1 9 Tf
+BT
+20 564 Td
+(Sim) Tj
+ET
+BT
+205 564 Td
+(Sim) Tj
+ET
+BT
+375 564 Td
+(Sim) Tj
+ET
+BT
+475 564 Td
+(.) Tj
+ET
+BT
+20 552 Td
+(Sim) Tj
+ET
+BT
+205 552 Td
+(Sim) Tj
+ET
+BT
+375 552 Td
+(Sim) Tj
+ET
+BT
+475 552 Td
+(.) Tj
+ET
+BT
+20 540 Td
+(Sim) Tj
+ET
+BT
+205 540 Td
+(Sim) Tj
+ET
+BT
+375 540 Td
+(Sim) Tj
+ET
+BT
+475 540 Td
+(.) Tj
+ET
+BT
+20 528 Td
+(Sim) Tj
+ET
+BT
+205 528 Td
+(Sim) Tj
+ET
+BT
+375 528 Td
+(Sim) Tj
+ET
+BT
+475 528 Td
+(.) Tj
+ET
+BT
+20 516 Td
+(Sim) Tj
+ET
+BT
+205 516 Td
+(Sim) Tj
+ET
+BT
+375 516 Td
+(Sim) Tj
+ET
+BT
+475 516 Td
+(.) Tj
+ET
+BT
+20 504 Td
+(Sim) Tj
+ET
+BT
+205 504 Td
+(Sim) Tj
+ET
+BT
+375 504 Td
+(Sim) Tj
+ET
+BT
+475 504 Td
+(.) Tj
+ET
+BT
+20 492 Td
+(Sim) Tj
+ET
+BT
+205 492 Td
+(Sim) Tj
+ET
+BT
+375 492 Td
+(Sim) Tj
+ET
+BT
+475 492 Td
+(.) Tj
+ET
+BT
+20 480 Td
+(Sim) Tj
+ET
+BT
+205 480 Td
+(Sim) Tj
+ET
+BT
+375 480 Td
+(Sim) Tj
+ET
+BT
+475 480 Td
+(.) Tj
+ET
+BT
+20 468 Td
+(Sim) Tj
+ET
+BT
+205 468 Td
+(Sim) Tj
+ET
+BT
+375 468 Td
+(Sim) Tj
+ET
+BT
+475 468 Td
+(.) Tj
+ET
+BT
+20 456 Td
+(Sim) Tj
+ET
+BT
+205 456 Td
+(Sim) Tj
+ET
+BT
+375 456 Td
+(Sim) Tj
+ET
+BT
+475 456 Td
+(.) Tj
+ET
+BT
+20 444 Td
+(Sim) Tj
+ET
+BT
+205 444 Td
+(Sim) Tj
+ET
+BT
+375 444 Td
+(Sim) Tj
+ET
+BT
+475 444 Td
+(.) Tj
+ET
+BT
+20 432 Td
+(Sim) Tj
+ET
+BT
+205 432 Td
+(Sim) Tj
+ET
+BT
+375 432 Td
+(Sim) Tj
+ET
+BT
+475 432 Td
+(.) Tj
+ET
+BT
+20 420 Td
+(Sim) Tj
+ET
+BT
+205 420 Td
+(Sim) Tj
+ET
+BT
+375 420 Td
+(Sim) Tj
+ET
+BT
+475 420 Td
+(.) Tj
+ET
+BT
+20 408 Td
+(Sim) Tj
+ET
+BT
+205 408 Td
+(Sim) Tj
+ET
+BT
+375 408 Td
+(Sim) Tj
+ET
+BT
+475 408 Td
+(.) Tj
+ET
+BT
+20 396 Td
+(Sim) Tj
+ET
+BT
+205 396 Td
+(Sim) Tj
+ET
+BT
+375 396 Td
+(Sim) Tj
+ET
+BT
+475 396 Td
+(.) Tj
+ET
+BT
+20 384 Td
+(Sim) Tj
+ET
+BT
+205 384 Td
+(Sim) Tj
+ET
+BT
+375 384 Td
+(Sim) Tj
+ET
+BT
+475 384 Td
+(.) Tj
+ET
+BT
+20 372 Td
+(Sim) Tj
+ET
+BT
+205 372 Td
+(Sim) Tj
+ET
+BT
+375 372 Td
+(Sim) Tj
+ET
+BT
+475 372 Td
+(.) Tj
+ET
+BT
+20 360 Td
+(Sim) Tj
+ET
+BT
+205 360 Td
+(Sim) Tj
+ET
+BT
+375 360 Td
+(Sim) Tj
+ET
+BT
+475 360 Td
+(.) Tj
+ET
+BT
+20 348 Td
+(Sim) Tj
+ET
+BT
+205 348 Td
+(Sim) Tj
+ET
+BT
+375 348 Td
+(Sim) Tj
+ET
+BT
+475 348 Td
+(.) Tj
+ET
+BT
+20 336 Td
+(Sim) Tj
+ET
+BT
+205 336 Td
+(Sim) Tj
+ET
+BT
+375 336 Td
+(Sim) Tj
+ET
+BT
+475 336 Td
+(.) Tj
+ET
+BT
+20 324 Td
+(Sim) Tj
+ET
+BT
+205 324 Td
+(Sim) Tj
+ET
+BT
+375 324 Td
+(Sim) Tj
+ET
+BT
+475 324 Td
+(.) Tj
+ET
+BT
+20 312 Td
+(Sim) Tj
+ET
+BT
+205 312 Td
+(Sim) Tj
+ET
+BT
+375 312 Td
+(Sim) Tj
+ET
+BT
+475 312 Td
+(.) Tj
+ET
+BT
+20 300 Td
+(Sim) Tj
+ET
+BT
+205 300 Td
+(Sim) Tj
+ET
+BT
+375 300 Td
+(Sim) Tj
+ET
+BT
+475 300 Td
+(.) Tj
+ET
+
+endstream
+endobj
+9 0 obj 
+[]
+endobj
+10 0 obj 
+<</Names 9 0 R >>
+endobj
+11 0 obj 
+<</Dests 10 0 R >>
+endobj
+12 0 obj 
 <</Type /Font /Encoding /WinAnsiEncoding /Subtype /Type1 /BaseFont /Courier >>
 endobj
 xref
-0 9 
+0 13 
 0000000000 65535 f 
 0000000015 00000 n 
-0000000091 00000 n 
-0000000149 00000 n 
-0000000341 00000 n 
-0000003378 00000 n 
-0000003397 00000 n 
-0000003431 00000 n 
-0000003465 00000 n 
+0000000092 00000 n 
+0000000162 00000 n 
+0000000350 00000 n 
+0000000538 00000 n 
+0000000726 00000 n 
+0000005719 00000 n 
+0000013095 00000 n 
+0000015618 00000 n 
+0000015637 00000 n 
+0000015672 00000 n 
+0000015708 00000 n 
 trailer
-<</ID [<35306361323932666130393265393631> <37636535366235666436363034613164> ] /Size 9 /Root 1 0 R >>
+<</ID [<33333937396633666630333835646566> <39636534646537356662333564363237> ] /Size 13 /Root 1 0 R >>
 startxref
-3560
+15804
 %%EOF

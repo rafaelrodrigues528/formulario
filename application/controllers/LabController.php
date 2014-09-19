@@ -196,136 +196,160 @@ class LabController extends Zend_Controller_Action
 
             $pdf = new Zend_Pdf();
 
-            $pdfPage = $pdf->newPage(Zend_Pdf_Page::SIZE_A4);
+            $pdfPage = $pdf->newPage(Zend_Pdf_Page::SIZE_A4_LANDSCAPE);
 
             // 595:842 A4
-
-            $pdfPage->rotate(430, 390, M_PI / 2);
 
             $font = Zend_Pdf_Font::fontWithName(Zend_Pdf_Font::FONT_COURIER);
 
             $pdfPage->setFont($font, 12);
 
-            $pdfPage->drawText('Local', 45, 800, 'UTF-8');
+            $pdfPage->drawText('Local', 20, 570, 'UTF-8');
 
-            $pdfPage->drawText('Nome laboratório', 100, 800, 'UTF-8');
+            $pdfPage->drawText('Nome laboratório', 75, 570, 'UTF-8');
 
-            $pdfPage->drawText('Data', 230, 800, 'UTF-8');
+            $pdfPage->drawText('Data', 205, 570, 'UTF-8');
 
-            $pdfPage->drawText('Turno visita', 290, 800, 'UTF-8');
+            $pdfPage->drawText('Turno visita', 265, 570, 'UTF-8');
 
-            $pdfPage->drawText('Somente aula?', 390, 800, 'UTF-8');
+            $pdfPage->drawText('Somente aula?', 365, 570, 'UTF-8');
 
-            $pdfPage->drawText('Frequencia aula', 500, 800, 'UTF-8');
+            $pdfPage->drawText('Frequencia aula', 475, 570, 'UTF-8');
 
-            $pdfPage->drawText('Turno Aula', 620, 800, 'UTF-8');
+            $pdfPage->drawText('Turno Aula', 595, 570, 'UTF-8');
 
-            $pdfPage->drawText('Quantidade gabinete', 720, 800, 'UTF-8');
+            $pdfPage->drawText('Quantidade gabinete', 695, 570, 'UTF-8');
 
-            $stringpos = 780; // posicao x do meu texto
+            $stringpos = 550; // posicao x do meu texto
             $stringdif = 12; // diferença entre cada quebra de linha.
 
-            $pdfPage->setFont($font, 9); //
+            $pdfPage->setFont($font, 9);
 
             foreach ($valor as $value) {
-                $pdfPage->drawText($value->local, 45, $stringpos, 'UTF-8');
-                $pdfPage->drawText($value->nomeLaboratorio, 100, $stringpos,
+                $pdfPage->drawText($stringpos, 20, $stringpos, 'UTF-8');
+                $pdfPage->drawText($value->nomeLaboratorio, 75, $stringpos,
                         'UTF-8');
-                $pdfPage->drawText($value->data, 230, $stringpos, 'UTF-8');
-                $pdfPage->drawText($value->turnoVisita, 290, $stringpos,
+                $pdfPage->drawText($value->data, 205, $stringpos, 'UTF-8');
+                $pdfPage->drawText($value->turnoVisita, 265, $stringpos,
                         'UTF-8');
-                $pdfPage->drawText($value->somenteAula, 390, $stringpos,
+                $pdfPage->drawText($value->somenteAula, 365, $stringpos,
                         'UTF-8');
-                $pdfPage->drawText($value->frequenciaAula, 500, $stringpos,
+                $pdfPage->drawText($value->frequenciaAula, 475, $stringpos,
                         'UTF-8');
-                $pdfPage->drawText($value->turnoAula, 620, $stringpos, 'UTF-8');
-                $pdfPage->drawText($value->quantGabinete, 720, $stringpos,
+                $pdfPage->drawText($value->turnoAula, 595, $stringpos, 'UTF-8');
+                $pdfPage->drawText($value->quantGabinete, 695, $stringpos,
                         'UTF-8');
                 $stringpos = ($stringpos - $stringdif); // subtrai para que a
                                                             // linha fique embaixo
             }
 
+            if ($stringpos < 285) {
+                array_push($pdf->pages, $pdfPage);
+               $pdfPage = $pdf->newPage(Zend_Pdf_Page::SIZE_A4_LANDSCAPE);
+               $stringpos=580;
+            }
+
             $stringpos -= 4;
 
             $pdfPage->setFont($font, 12);
-            $pdfPage->drawText('Quantidade tipo gabinete', 45, $stringpos,
+            $pdfPage->drawText('Quantidade tipo gabinete', 20, $stringpos,
                     'UTF-8');
-            $pdfPage->drawText('Sistema operacional', 230, $stringpos, 'UTF-8');
-            $pdfPage->drawText('Licença DTI?', 390, $stringpos, 'UTF-8');
-            $pdfPage->drawText('OCS instalado?', 500, $stringpos, 'UTF-8');
-            $pdfPage->drawText('Ips servidores', 620, $stringpos, 'UTF-8');
-            $pdfPage->drawText('Estrutura L.rede', 740, $stringpos, 'UTF-8');
+            $pdfPage->drawText('Sistema operacional', 205, $stringpos, 'UTF-8');
+            $pdfPage->drawText('Licença DTI?', 365, $stringpos, 'UTF-8');
+            $pdfPage->drawText('OCS instalado?', 475, $stringpos, 'UTF-8');
+            $pdfPage->drawText('Ips servidores', 595, $stringpos, 'UTF-8');
+            $pdfPage->drawText('Estrutura L.rede', 710, $stringpos, 'UTF-8');
 
             $stringpos -= 12;
             $pdfPage->setFont($font, 9);
             foreach ($valor as $value) {
-                $pdfPage->drawText($value->quantTipoGabinete, 45, $stringpos,
+                $pdfPage->drawText($stringpos, 20, $stringpos,
                         'UTF-8');
-                $pdfPage->drawText($value->sisOperacional, 230, $stringpos,
+                $pdfPage->drawText($value->sisOperacional, 205, $stringpos,
                         'UTF-8');
-                $pdfPage->drawText($value->licencaDti, 390, $stringpos, 'UTF-8');
-                $pdfPage->drawText($value->ocsInstalado, 500, $stringpos,
+                $pdfPage->drawText($value->licencaDti, 365, $stringpos, 'UTF-8');
+                $pdfPage->drawText($value->ocsInstalado, 475, $stringpos,
                         'UTF-8');
-                $pdfPage->drawText($value->ipsServidores, 620, $stringpos,
+                $pdfPage->drawText($value->ipsServidores, 595, $stringpos,
                         'UTF-8');
-                $pdfPage->drawText($value->estruturaLRede, 740, $stringpos,
+                $pdfPage->drawText($value->estruturaLRede, 710, $stringpos,
                         'UTF-8');
 
                 $stringpos = ($stringpos - $stringdif); // subtrai para que a
                                                             // linha fique embaixo
             }
 
-            $stringpos -= 4;
-
-            $pdfPage->setFont($font, 12);
-            $pdfPage->drawText('Roteador', 45, $stringpos, 'UTF-8');
-            $pdfPage->drawText('Ip entrada', 230, $stringpos, 'UTF-8');
-            $pdfPage->drawText('Ip saída', 390, $stringpos, 'UTF-8');
-            $pdfPage->drawText('Nome responsável', 500, $stringpos, 'UTF-8');
-            $pdfPage->drawText('Ramal', 620, $stringpos, 'UTF-8');
-            $pdfPage->drawText('E-mail', 740, $stringpos, 'UTF-8');
-
-            $stringpos -= 12;
-            $pdfPage->setFont($font, 9);
-            foreach ($valor as $value) {
-                $pdfPage->drawText($value->roteador, 45, $stringpos, 'UTF-8');
-                $pdfPage->drawText($value->ipEntrada, 230, $stringpos, 'UTF-8');
-                $pdfPage->drawText($value->ipSaida, 390, $stringpos, 'UTF-8');
-                $pdfPage->drawText($value->nomeResponsavel, 500, $stringpos,
-                        'UTF-8');
-                $pdfPage->drawText($value->ramal, 620, $stringpos, 'UTF-8');
-                $pdfPage->drawText($value->email, 740, $stringpos, 'UTF-8');
-
-                $stringpos = ($stringpos - $stringdif); // subtrai para que a
-                                                            // linha fique embaixo
+            if ($stringpos < 198) {
+                array_push($pdf->pages, $pdfPage);
+                $pdfPage = $pdf->newPage(Zend_Pdf_Page::SIZE_A4_LANDSCAPE);
+                $stringpos=580;
             }
 
             $stringpos -= 4;
 
             $pdfPage->setFont($font, 12);
-            $pdfPage->drawText('Acesso remoto', 45, $stringpos, 'UTF-8');
-            $pdfPage->drawText('Backup', 230, $stringpos, 'UTF-8');
-            $pdfPage->drawText('Firewall', 390, $stringpos, 'UTF-8');
-            $pdfPage->drawText('Observações', 500, $stringpos, 'UTF-8');
+            $pdfPage->drawText('Roteador', 20, $stringpos, 'UTF-8');
+            $pdfPage->drawText('Ip entrada', 205, $stringpos, 'UTF-8');
+            $pdfPage->drawText('Ip saída', 365, $stringpos, 'UTF-8');
+            $pdfPage->drawText('Nome responsável', 475, $stringpos, 'UTF-8');
+            $pdfPage->drawText('Ramal', 595, $stringpos, 'UTF-8');
+            $pdfPage->drawText('E-mail', 715, $stringpos, 'UTF-8');
 
             $stringpos -= 12;
             $pdfPage->setFont($font, 9);
             foreach ($valor as $value) {
-                $pdfPage->drawText($value->acessoRemoto, 45, $stringpos,
+                $pdfPage->drawText($stringpos, 20, $stringpos, 'UTF-8');
+                $pdfPage->drawText($value->ipEntrada, 205, $stringpos, 'UTF-8');
+                $pdfPage->drawText($value->ipSaida, 365, $stringpos, 'UTF-8');
+                $pdfPage->drawText($value->nomeResponsavel, 475, $stringpos,
                         'UTF-8');
-                $pdfPage->drawText($value->backup, 230, $stringpos, 'UTF-8');
-                $pdfPage->drawText($value->firewall, 390, $stringpos, 'UTF-8');
-                $pdfPage->drawText($value->observacoes, 500, $stringpos,
+                $pdfPage->drawText($value->ramal, 595, $stringpos, 'UTF-8');
+                $pdfPage->drawText($value->email, 715, $stringpos, 'UTF-8');
+
+                $stringpos = ($stringpos - $stringdif); // subtrai para que a
+                                                        // linha fique embaixo
+                if ($stringpos < 14) {}
+            }
+            if ($stringpos <= 170) {
+
+                array_push($pdf->pages, $pdfPage);
+                $pdfPage = $pdf->newPage(Zend_Pdf_Page::SIZE_A4_LANDSCAPE);
+                $stringpos=580;
+            }
+
+            $stringpos -= 4;
+
+            $pdfPage->setFont($font, 12);
+            $pdfPage->drawText('Acesso remoto', 20, $stringpos, 'UTF-8');
+            $pdfPage->drawText('Backup', 205, $stringpos, 'UTF-8');
+            $pdfPage->drawText('Firewall', 375, $stringpos, 'UTF-8');
+            $pdfPage->drawText('Observações', 475, $stringpos, 'UTF-8');
+
+            $stringpos -= 12;
+            $pdfPage->setFont($font, 9);
+            foreach ($valor as $value) {
+                $pdfPage->drawText($value->acessoRemoto, 20, $stringpos,
+                        'UTF-8');
+                $pdfPage->drawText($value->backup, 205, $stringpos, 'UTF-8');
+                $pdfPage->drawText($value->firewall, 375, $stringpos, 'UTF-8');
+                $pdfPage->drawText($value->observacoes, 475, $stringpos,
                         'UTF-8');
 
                 $stringpos = ($stringpos - $stringdif); // subtrai para que a
                                                             // linha fique embaixo
+            }
+
+            if ($stringpos < 14) {
+                array_push($pdf->pages, $pdfPage);
+                $pdfPage = $pdf->newPage(Zend_Pdf_Page::SIZE_A4_LANDSCAPE);
             }
 
             // if $stringpos = 250 muda a pagina
             //
             // adicionamos nossa página como a 1ª página de nosso documento
-            $pdf->pages[0] = $pdfPage;
+            // $pagina=$stringpos/250;
+            array_push($pdf->pages, $pdfPage);
+            // $pdf->pages[1] = $pdfPage;
             $pdf->save('lab.pdf');
             header('Content-type: application/pdf');
             echo $pdf->render();
